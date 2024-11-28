@@ -1,5 +1,6 @@
-console.log("start");
-setTimeout(() => {
-    console.log("this run after 5 seconds");
-}, 5000);
-console.log("end");
+//find unique elements
+const array1=[1,2,3,3,4,5];
+const uniqueArray=Array.from(new Set(array1))
+console.log('original',array1);
+console.log('unique',uniqueArray);
+
